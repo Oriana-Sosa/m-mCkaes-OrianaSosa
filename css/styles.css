@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,p,a{
+    font-family: 'Noto Serif', serif;
+}
+
+/*Navbar y header*/
+
+.logo{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerNombre{
+    display: inline;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    left: 700px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a:hover{
+    background-color: rgba(214, 165, 189, 0.514) ;
+}
+
+li a{
+    padding: 10px;
+    font-size: 1rem;
+    
+}
+
+/*Portadas*/
+
+.portada{
+    background-image: url(../assets/img/portada.jpg);
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.portadaTexto{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    position: relative;
+    top: 150px;
+}
+
+.eslogan{
+    font-size: 30px;
+    padding: 20px;
+}
+
+/*Nuestra Historia*/
+
+.subtituloHistoria{
+    text-align: center;
+    padding: 70px;
+    font-size: 40px;
+}
+
+.historia{
+    padding: 60px;
+    display: inline-block;
+    width: 500px;
+}
+
+.textoDerecha{
+    padding: 60px;
+    display: inline-block;
+    width: 500px;
+}
+
+.agradecimientos{
+    text-align: center;
+    background-color: rgba(214, 165, 189, 0.514);
+    margin-bottom: 40px;
+}
+
+.agradecimientosGracias{
+    font-size: 30px;
+    padding: 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(214, 165, 189);
+}
+
+.footerNombre{
+    font-size: 20px;
+    text-align: center;
+}
+
+.footerLogo{
+    width: 100px;
+    position: relative;
+    left: 580px;
+    padding-top: 20px;
+}
+
+.redesLogo{
+    width: 30px;
+    padding-left: 40px;
+}
+
+.copyright{
+    position: relative;
+    left: 650px;
+}
+
+/*FAQs*/
+
+.preguntasRespuestas{
+    display: inline-block;
+    width: 500px;
+    padding: 50px;
+}
+
+/*Contactanos*/
+
+.escribinosMensaje{
+    padding: 30px;
+}
+
+.formElemento{
+    padding: 20px 30px;
+}
+
+.formularioLabel{
+    display: block;
+    padding: 15px;
+}
+
+.formulario{
+    padding: 50px;
+}
+
+.formularioImg{
+    width: 350px;
+    position: relative;
+    left: 400px;
+    bottom: 600px;
+}
+
+.formBtn{
+    padding: 10px;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+}
+
+.redesLogoIg{
+    width: 50px;
+    margin-top: 15px;
+}
+
+.presentacionRedes{
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    background-color: rgba(214, 165, 189, 0.514);
+}
+
+/*Productos*/
+
+.tarjeta{
+    width: 20%;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+
+.tarjetaImg{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.productosSubtitulo{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.achicar{
+    width: 180px;
+}
+
+/*Index*/
+
+.instagramSubtitulo{
+    font-size: 30px;
+    text-align: center;
+}
+
+.instagram{
+    width: 20%;
+    display: inline-block;
+    padding: 30px;
+}
+
+.instagramImg{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.indexImg{
+    width: 300px;
+    display: inline;
+    padding: 50px;
+}
+
+.contenidoIndex{
+    width: 25%;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.btn{
+    padding: 20px;
+    background-color:rgb(214, 165, 189) ;
+    border: none;
+    font-family: 'Noto Serif', serif ;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: rgba(214, 165, 189, 0.514);
+}
+
+.agrandar{
+    width: 500px;
+}
